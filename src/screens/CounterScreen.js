@@ -13,7 +13,7 @@ const reducer = (state, action) => {
 };
 
 const CounterScreen = () => {
-  const [state, dispatch] = useReducer(reducer);
+  const [state, dispatch] = useReducer(reducer, 0);
 
   return (
     <View>
